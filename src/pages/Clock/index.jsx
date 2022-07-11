@@ -1,10 +1,13 @@
 import React, { useState, useEffect } from 'react';
 
-import { Container } from './styles';
-import 'react-clock/dist/Clock.css';
+import { 
+  Container,
+  Hours
+} from './styles';
 
 function Clock() {
   const [hours, setHours] = useState();
+  const [alarm, setAlarm] = useState();
 
   useEffect(() => {
     setInterval(() => {
@@ -15,7 +18,7 @@ function Clock() {
 
   return (
     <Container>
-      {hours}
+      <Hours>{hours}</Hours>
     </Container>
   );
 }
