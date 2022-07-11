@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  
 `;
 
 export const Hours = styled.div`
@@ -10,4 +9,5 @@ export const Hours = styled.div`
   width: 60vw;
   display: flex;
   justify-content: center;
+  font-size: 10rem;
 `;
