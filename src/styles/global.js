@@ -17,5 +17,6 @@ export default createGlobalStyle`
     height: 100vh;
     background: #000000;
     color: #FFFFFF;
+    font-family: 'Orbitron', sans-serif;
   }
 `;
